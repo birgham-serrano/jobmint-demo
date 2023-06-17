@@ -1,5 +1,5 @@
 function startCountdown() {
-  var inputDate = document.querySelectorAll("countdown-timer").getAttribute('data-deadline');
+  var inputDate = document.querySelectorAll("#countdown-timer")[0].getAttribute('data-deadline');
   var deadline = new Date(inputDate).getTime();
 
   if (isNaN(deadline)) {
