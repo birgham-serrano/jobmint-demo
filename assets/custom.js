@@ -8,7 +8,7 @@ function startCountdown() {
 
   var countdownTimer = setInterval(function() {
     var now = new Date().getTime();
-    alert(now);
+    
     var timeRemaining = deadline - now;
 
     if (timeRemaining < 0) {
