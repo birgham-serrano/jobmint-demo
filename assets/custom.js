@@ -22,7 +22,7 @@ function startCountdown() {
     var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
-    document.getElementById("countdown-timer").innerHTML = "{{ 'CUSTOM TEXT' | escape }} " +
+    document.getElementById("countdown-timer").innerHTML = 
       formatTime(days) + "d " +
       formatTime(hours) + "h " +
       formatTime(minutes) + "m " +
