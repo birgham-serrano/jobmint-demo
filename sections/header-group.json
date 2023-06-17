@@ -8,7 +8,7 @@
         "41229557-9a35-456c-9342-f2fde524f5e7": {
           "type": "countdown",
           "settings": {
-            "text": "Coffee Time ☕",
+            "text": "Countdown Time ☕",
             "deadline": "Dec 25, 2023 23:59:00 GMT-0700",
             "text_alignment": "center",
             "color_scheme": "accent-1",
