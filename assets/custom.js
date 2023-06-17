@@ -3,12 +3,12 @@ function startCountdown() {
   var deadline = new Date(inputDate).getTime();
 
   if (isNaN(deadline)) {
-    alert("Invalid date format. Please enter a valid date.");
     return;
   }
 
   var countdownTimer = setInterval(function() {
     var now = new Date().getTime();
+    alert(now);
     var timeRemaining = deadline - now;
 
     if (timeRemaining < 0) {
