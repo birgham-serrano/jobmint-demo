@@ -5,18 +5,8 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Coffee Time ☕",
-            "text_alignment": "center",
-            "color_scheme": "accent-1",
-            "link": ""
-          }
-        },
         "41229557-9a35-456c-9342-f2fde524f5e7": {
           "type": "countdown",
-          "disabled": true,
           "settings": {
             "text": "Countdown Time ☕",
             "deadline": "Dec 25, 2023 23:59:00 GMT-0700",
@@ -24,11 +14,21 @@
             "color_scheme": "accent-1",
             "link": ""
           }
+        },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Coffee Time ☕",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "41229557-9a35-456c-9342-f2fde524f5e7"
+        "41229557-9a35-456c-9342-f2fde524f5e7",
+        "announcement-bar-0"
       ],
       "settings": {
       }
