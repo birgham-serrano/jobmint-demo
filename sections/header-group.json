@@ -9,7 +9,7 @@
           "type": "countdown",
           "settings": {
             "text": "Coffee Time ☕",
-            "deadline": "June 16, 2023 23:59:00 GMT-0800",
+            "deadline": "June 17, 2023 1:00:00 EST",
             "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": ""
